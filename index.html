@@ -5,9 +5,74 @@
     <meta charset="utf-8">
     <!-- CSS included -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   </head>
   <body>
-    <div class="container">
+    <div class="main-site">
+      <nav class="navbar">
+        <ul class="nav-tablist">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Article</li>
+          <li class="nav-item">About me</li>
+        </ul>
+      </nav>
+      <!-- Main Site -->
+      <div class="site">
+        <!-- Article Section -->
+        <div class="article-list">
+          <!-- Post -->
+          <article class="post">
+            <header class="post-header">
+              <div class="author-avatar">
+                <a href=""><img src="" alt=""></a>
+              </div>
+              <div class="summary">
+                <div class="author-name">Kanisorn Sutham</div>
+                <span class="date">29 jan 2016</span>
+                <span class="tag">Story, Programming, Reality</span>
+              </div>
+            </header>
+            <div class="post-detail">
+              <a href=""><h1 class="post-title"></h1></a>
+              <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="post-excerpt">
+             ครัวซองดั๊มพ์ แอ๊บแบ๊ว พาร์หมวย เวิร์คเทรดออโต้ชัตเตอร์อะ เซอร์
+             วาซาบิรัมเอฟเฟ็กต์คองเกรสยาวี เนิร์สเซอรี่มือถือเอาท์ สุริยยาตรพูล
+             มหภาค เวณิกา วิวดีพาร์ทเมนท์ สหัสวรรษเอ็กซ์โปลอร์ดดยุกฟีเวอร์
+             เกย์แอ๊บแบ๊ว แตงกวารอยัลตี้ปฏิสัมพันธ์ รีไทร์เต๊ะทีวีแซ็ก สป็อต</div>
+          </article>
+        </div>
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+          <div class="card tag">
+            <a href="" class="tag-item">Love</a>
+            <a href="" class="tag-item">Story</a>
+            <a href="" class="tag-item">Innovation</a>
+            <a href="" class="tag-item">Inspiration</a>
+            <a href="" class="tag-item">Programming</a>
+            <a href="" class="tag-item">Trick</a>
+            <a href="" class="tag-item">Journey</a>
+            <a href="" class="tag-item">Diary</a>
+          </div>
+          <div class="card highlight">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div>
+          <div class="card author">
+            <div class="cover-image"></div>
+            <div class="summary"></div>
+            <div class="logo">
+              <a href="">
+                <img src="" alt="">
+              </a>
+          </div>
+          </div>
+          <div class="card top-article"></div>
+          <footer></footer>
+        </div>
+      </div>
     </div>
     <!-- Javascript included -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
