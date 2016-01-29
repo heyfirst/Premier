@@ -6,10 +6,10 @@ A HTML template for develop to a little and simple theme for Ghost Blog . Made f
 
 
 ### Hope to use
-- (http://owlgraphic.com/owlcarousel/)[OWLCarousel]
-- (https://github.com/jamalneufeld/ghostHunter)[GhostHunter]
-- (http://fortawesome.github.io/Font-Awesome/)[FontAwesome]
-- (http://instafeedjs.com/)[InstaFeed.js]
-- (http://fitvidsjs.com/)[fitvidsjs]
-- (http://prismjs.com/)[prismjs]
-- (https://github.com/kni-labs/rrssb)[RRSSB]
+- [OWLCarousel](http://owlgraphic.com/owlcarousel/)
+- [GhostHunter](https://github.com/jamalneufeld/ghostHunter)
+- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
+- [InstaFeed.js](http://instafeedjs.com/)
+- [fitvidsjs](http://fitvidsjs.com/)
+- [prismjs](http://prismjs.com/)
+- [RRSSB](https://github.com/kni-labs/rrssb)
